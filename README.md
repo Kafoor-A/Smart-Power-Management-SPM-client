@@ -29,7 +29,7 @@ A smart power management system using ESP32 for real-time monitoring and automat
 - 🚀 Embedded (ESP32)
 
 ## ⚙️ System Architecture
-> _Using bluetooth it can Config and Tranfer Data to android APP ._
+> _Using bluetooth it can Config and Transfer Data to android APP ._
 ```mermaid
 graph TD
   User -->|UI Input| Frontend
@@ -56,7 +56,7 @@ graph TD
 ### Setup Steps
 ```bash
 # Clone the repository
-git clone https://github.com/Raghavan2005/Smart-Power-Management-SPM-client.git
+git clone https://github.com/Kafoor-A/Smart-Power-Management-SPM-client.git
 cd Smart-Power-Management-SPM-client
 
 # Install dependencies
