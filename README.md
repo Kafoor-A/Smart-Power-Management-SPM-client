@@ -56,8 +56,7 @@ graph TD
 ### Setup Steps
 ```bash
 # Clone the repository
-git clone https://github.com/Kafoor-A/Smart-Power-Management-SPM-client.git
-cd Smart-Power-Management-SPM-client
+git clone https://github.com/Kafoor-A/Smart-Power-Management-SPM-client.gitcd Smart-Power-Management-SPM-client
 
 # Install dependencies
 flutter pub get     # For Flutter frontend
