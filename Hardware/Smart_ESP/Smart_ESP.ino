@@ -3,7 +3,6 @@
 #include <BLEServer.h>
 #include <BLE2902.h>
 
-// BLE Service & Characteristic UUIDs
 #define SERVICE_UUID        "12345678-1234-1234-1234-1234567890ab"
 #define CHARACTERISTIC_UUID "abcdefab-1234-1234-1234-abcdefabcdef"
 
