@@ -50,7 +50,6 @@ void setup() {
   digitalWrite(buzzerPin, LOW);
   digitalWrite(ledPin, LOW);
 
-  // BLE Setup
   BLEDevice::init("ESP32-Generator");
   BLEServer *pServer = BLEDevice::createServer();
   pServer->setCallbacks(new MyServerCallbacks());
