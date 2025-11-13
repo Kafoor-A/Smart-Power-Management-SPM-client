@@ -6,7 +6,6 @@
 #define SERVICE_UUID        "12345678-1234-1234-1234-1234567890ab"
 #define CHARACTERISTIC_UUID "abcdefab-1234-1234-1234-abcdefabcdef"
 
-// Pin configuration
 const int relayPin = 26;
 const int buzzerPin = 27;
 const int ledPin = 25;
