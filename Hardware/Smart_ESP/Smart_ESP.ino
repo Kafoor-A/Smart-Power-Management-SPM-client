@@ -36,7 +36,7 @@ void sendBLEMessage(String msg) {
     pCharacteristic->setValue(msg.c_str());
     pCharacteristic->notify();
   }
-  Serial.println(msg);  // still print to serial
+  Serial.println(msg);  
 }
 
 void setup() {
