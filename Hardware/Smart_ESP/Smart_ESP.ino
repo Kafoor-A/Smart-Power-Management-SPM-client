@@ -97,7 +97,7 @@ void loop() {
     if (lastLowStartTime == 0) {
       lastLowStartTime = millis();
       sendBLEMessage("⏳ Low load detected. Shutdown timer started.");
-    } else if (millis() - lastLowStartTime >= delayBeforeOff) {
+    } else if (millis() - lastLowStartTime >= delayBeforeOFF) {
       digitalWrite(relayPin, LOW);
       generatorOn = false;
       lastLowStartTime = 0;
